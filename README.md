@@ -82,7 +82,7 @@ This project was created to:
 ## 👩‍💻 Author
 **Rosalie Reblora**  
 Computer Science Student  
-Cybersecurity Certificate  
+
 
 ---
 
