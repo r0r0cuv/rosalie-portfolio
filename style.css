@@ -558,3 +558,37 @@ footer {
   .mini-grid { grid-template-columns: 1fr 1fr; }
   .hero-actions { flex-direction: column; align-items: start; }
 }
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.cert-card {
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  display: block;
+  transition: 0.3s;
+}
+
+.cert-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.cert-card img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+.cert-card span {
+  font-size: 14px;
+  font-weight: 600;
+  display: block;
+}
